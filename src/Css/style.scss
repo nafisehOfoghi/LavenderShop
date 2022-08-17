@@ -1,0 +1,16 @@
+$background: surface-200;
+
+.appBody{
+  color:$background ;
+}
+.fontStyle{
+    font:{
+    family: BNazanin;
+    size: 35px;
+    weight: bold;
+  }
+}
+
+.cardTransition{
+  transition: width 2s, height 4s ;
+}
