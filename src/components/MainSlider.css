@@ -1,0 +1,31 @@
+.slider_title
+{
+    list-style: none;
+    text-align: right;
+    color: white;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.slider_title h2
+{
+    font-size: 40px !important;
+}
+.slider_title p
+{
+    font-size: 20px !important;
+}
+.slider-botton
+{
+    background-color: white !important;
+    color: black !important;
+    border-color: #5c858b !important;
+    padding-right: 60px !important;
+    padding-left:  60px !important;
+    border-radius: 0px !important;
+}
+.slider-botton:hover
+{
+    background-color: #5c858b !important;
+    color: white !important;
+    border-color: #ffffff !important;
+}

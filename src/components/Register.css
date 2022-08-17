@@ -1,0 +1,45 @@
+.p-fluid
+{
+    direction: rtl !important;
+}
+.field-checkbox
+{
+    direction: rtl !important;
+}
+.field
+{
+    direction: rtl !important;
+}
+
+.p-calendar-w-btn-right .p-inputtext
+{
+    border-radius: 0px !important;
+}
+
+.p-calendar-w-btn-right .p-datepicker-trigger
+{
+    border-radius: 0px !important;
+    border-bottom-left-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+}
+
+.form-demo .card {
+    min-width: 450px;
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}

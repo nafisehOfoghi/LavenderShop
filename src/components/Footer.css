@@ -1,0 +1,25 @@
+.footer
+{
+    height: 400px !important;
+    background-color: #fff;
+background-image: url("../photo-1562886889-4ff7af0602ef.jpeg");
+background-size: cover;
+transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+
+}
+.footer-overlay
+{
+    background-color: #282828;
+    height: 400px !important;
+opacity: .86;
+transition: background .3s,border-radius .3s,opacity .3s;
+    
+}
+.copyright
+{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
