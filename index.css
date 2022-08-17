@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: "dana";
+  src: local("dana"),
+   url("./fonts/DanaFaNum-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+@font-face {
+  font-family: 'dana-bold';
+  src: url('./fonts/DanaFaNum-Bold.ttf'),
+       url('./fonts/DanaFaNum-Bold.woff') format('woff'),
+       url('./fonts/DanaFaNum-Bold.woff2') format('woff2'),
+     
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
