@@ -168,7 +168,7 @@ font-weight:10 !important;
 .main-content
 {
   display: inline-block;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   width: 100%;
 }
 .new-products
@@ -187,6 +187,8 @@ font-weight:10 !important;
   display: inline-block;
   background-color: #ffffff;
   padding-bottom: 100px;
+  width: 100%;
+  align-items: center;
 }
 .new-product-list
 {
@@ -194,6 +196,21 @@ font-weight:10 !important;
   background-color: rgb(247, 244, 244);
   padding-top: 100px;
 
+}
+.categories
+{
+  display: inherit;
+}
+
+h2
+{
+  font-size: 35px !important;
+
+}
+
+h3
+{
+  font-size:  30px !important;
 }
 
 

@@ -1,0 +1,149 @@
+.weblog-banner {
+    height: 500px;
+    background: transparent;
+    position: relative;
+    display: flex;
+    padding: 100px 100px 50px 100px;
+    text-align: right;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+
+}
+
+.info h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.info p {
+    margin-bottom: 50px;
+}
+
+.posts {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+
+}
+
+.weblog-banner .button {
+    font-size: 18px;
+    vertical-align: middle;
+    color: #c9a654;
+    cursor: pointer;
+
+
+}
+
+.weblog-banner .button .pi {
+    margin-left: 5px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.button .pi {
+    transition: transform 350ms;
+}
+
+
+.button button {
+    color: #c9a654;
+    background: transparent;
+    transition: transform 350ms;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0px none;
+    cursor: pointer;
+
+}
+
+.post-item {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.react-multi-carousel-dot button {
+
+    width: 8px !important;
+    height: 8px !important;
+    border-color: #a5a5a5;
+    border-width: 0px !important;
+    background-color: #a5a5a5;
+    vertical-align: middle;
+    margin: 0px 8px 0px 8px !important;
+
+}
+
+.react-multi-carousel-dot--active button {
+    background: #ffffff !important;
+    border-color: #c9a654 !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-width: 2px !important;
+}
+
+.post-item .post-title {
+    color: #ffffff;
+    text-align: right;
+    padding: 260px 30px 0px 30px;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 350ms;
+}
+
+.post-item .post-date {
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    font-size: 16px;
+    transition: transform 350ms;
+    padding: 260px 30px 0px 30px;
+    right: 0px;
+    margin-right: -250px;
+
+}
+
+.post-item .post-date:hover {
+    transform: translateX(+100%);
+}
+
+.post-item .pi {
+    vertical-align: middle;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        right: 0;
+    }
+}

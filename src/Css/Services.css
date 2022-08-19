@@ -1,0 +1,24 @@
+.services
+{
+    background-color: #ffffff;
+    height: 350px;
+    position: relative;
+    display: flex;
+    padding: 100px 100px 50px 100px;
+    margin-top: 50px;
+}
+
+.service
+{
+    width: 25%;
+    position: relative;
+    display: inline-block;
+}
+
+.service .pi
+{
+
+    font-size: 40px;
+    color: #5c858b;
+    margin-bottom: 0px;
+}

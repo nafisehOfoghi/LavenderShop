@@ -35,7 +35,7 @@
   font-size: 20px;
   font-weight: 700;
 }
-.show-more {
+.category-show-more {
   transition: all 0.2s !important;
   cursor: pointer;
   margin-top: 0px;
@@ -46,7 +46,7 @@
   font-size: 18px;
   border-color: #ffffff;
 }
-.show-more:hover {
+.category-show-more:hover {
   border: 2px solid #ffffff;
   background: transparent !important;
   color: #ffffff !important;
@@ -60,8 +60,9 @@
   cursor: pointer;
 }
 
-.show-more .pi-arrow-right
+.category-show-more .pi-arrow-right
 {
  
   vertical-align: middle;
+  margin-left: 10px;
 }
