@@ -10,6 +10,10 @@ import { Image } from "primereact/image";
 import MainSlider from "../components/MainSlider";
 import Category from "../components/Category";
 import NewProduct from "../components/NewProduct";
+import FeaturedCategories from "../components/FeauturedCategories";
+import Banner from "../components/Banner1";
+import Services from "../components/Services";
+import WeblogBanner from "../components/WeblogBanner";
 
 function Home() {
   const style = {
@@ -149,7 +153,7 @@ function Home() {
 
       <div className="new-product-list">
         <h2>جدیدترین محصولات</h2>
-        <p>با کیفیت ترین محصولات آرایشی بهداشتی را بشناسید</p>
+        <p>با کیفیت ترین محصولات آرایشی بهداشتی را تهیه کنید</p>
 
         <ul className="new-products">
           <li>
@@ -182,6 +186,15 @@ function Home() {
           </li>
         </ul>
       </div>
+
+        <FeaturedCategories/>
+
+        <Banner title="اینستاگرام" subtitle="#Ziba_Store"/>
+
+        <WeblogBanner/>
+
+        <Services/>
+
       {/* 
 
 

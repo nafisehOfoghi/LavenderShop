@@ -47,7 +47,7 @@
   margin-bottom: 30px;
   direction: rtl;
 }
-.show-more {
+.product-show-more {
   transition: all 0.2s !important;
   cursor: pointer;
   margin-top: 30px;
@@ -58,13 +58,13 @@
   border-color: #ffffff;
   font-size: 14px;
 }
-.show-more:hover {
+.product-show-more:hover {
   background: #e3cdc2 !important;
   border: 0.1px solid #ffffff;
   color: #252525 !important;
 }
 
-.show-more .pi-shopping-cart {
+.product-show-more .pi {
   vertical-align: middle;
-  margin-left: 5px;
+  margin-left: 10px;
 }

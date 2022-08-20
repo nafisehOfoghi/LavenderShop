@@ -45,7 +45,7 @@ function NewProduct (props)
      
 
       
-        <span className="show-more">
+        <span className="product-show-more">
 اضافه به سبد خرید
           <i className="pi pi-shopping-cart "></i>
         </span>

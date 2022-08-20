@@ -1,0 +1,21 @@
+.banner-container
+{
+
+    height: 350px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    padding: 80px;
+}
+
+.banner-container .title
+{
+    color: #252525;
+    font-size: 30px;
+}
+
+.banner-container .subtitle{
+    
+    font-size: 40px;
+    font-weight: 900;
+    color: #c9a654;
+}
