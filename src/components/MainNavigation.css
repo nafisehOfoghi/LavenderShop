@@ -82,3 +82,47 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
 }
+.logo-image
+{
+    margin-top: 15px;
+}
+
+/*سایز موبایل*/
+@media only screen and (max-width: 768px)
+{
+
+  .logo
+  {
+    width: 100% !important;
+    margin-right: 10px !important;
+  }
+  .logo line-height
+  {
+    margin-top: 0px !important;
+  }
+  .logo p {
+    font-size: 18px !important;
+  
+  }
+  .login .p-button{
+    padding: 10px;
+    font-size: 14px !important;
+  }
+  .login {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .header li {
+    margin-right: 0px !important;
+  }
+
+  .logo img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .logo-image
+{
+    margin-top: 0px !important;
+}
+
+}

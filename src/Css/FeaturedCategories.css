@@ -11,7 +11,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1514569369508-d2a48d3a423c.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 130%;
     cursor: pointer;
     transition: background-size 500ms ease-in;
     -moz-transition: background-size 500ms ease-in;
@@ -21,7 +21,7 @@
 }
 
 .first-col:hover {
-    background-size: 110%;
+    background-size: 150%;
 }
 
 .second-col {
@@ -36,7 +36,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-size: 100%;
+    background-size: 130%;
     transition: background-size 500ms ease-in;
     -moz-transition: background-size 500ms ease-in;
     -ms-transition: background-size 500ms ease-in;
@@ -45,7 +45,7 @@
 }
 
 .third-col:hover {
-    background-size: 110%;
+    background-size: 150%;
 }
 
 .second-col.section1 {
@@ -56,7 +56,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543422655-ac1c6ca993ed.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 130%;
     transition: background-size 500ms ease-in;
     -moz-transition: background-size 500ms ease-in;
     -ms-transition: background-size 500ms ease-in;
@@ -71,7 +71,7 @@
 }
 
 .second-col.second-col.section1:hover {
-    background-size: 110%;
+    background-size: 150%;
 }
 
 .second-col.section2 {
@@ -81,12 +81,12 @@
     margin-right: 0px;
     display: inline-block;
     position: relative;
-    height: 46%;
+    height: 47%;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543857261-f71238eb4188.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 140%;
     transition: background-size 500ms ease-in;
     -moz-transition: background-size 500ms ease-in;
     -ms-transition: background-size 500ms ease-in;
@@ -97,7 +97,7 @@
 }
 
 .second-col.section2:hover {
-    background-size: 110%;
+    background-size: 150%;
 }
 
 .featured-cat-list .title {
@@ -131,4 +131,32 @@
 
 .third-col .title {
     margin-top: 150px;
+}
+
+
+/*سایز موبایل*/
+@media only screen and (max-width: 768px)
+{
+    .featured-cat-list
+    {
+        padding: 0px 0px 5px 0px !important;
+        display: table !important;
+        
+    }
+    .first-col , .second-col , .third-col 
+    {
+            width: 100% !important;
+            height: 33% !important;
+            margin: 0px !important;
+         
+    }
+    .second-col
+    {
+        margin:0px !important;
+    }
+    .first-col .sub-title
+    {
+        margin-bottom: 0px !important;
+    }
+
 }

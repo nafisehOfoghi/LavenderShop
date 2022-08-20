@@ -104,7 +104,7 @@ function MainNavigation() {
         <div className="logo">
         <Link to="/">
           <ul>
-            <li style={{ marginTop: "15px" }}>
+            <li className="logo-image" >
             <img src={ require('../logo_fin.png') } />
             </li>
             <li>
