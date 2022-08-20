@@ -210,9 +210,27 @@ h2
 
 h3
 {
-  font-size:  30px !important;
+  font-size:  25px !important;
 }
 
+/*سایز موبایل*/
+@media only screen and (max-width: 768px)
+{
+  .header{
+    padding: 0px !important;
+  }
+
+  .new-product-list {
+    
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+  }
+  h3
+  {
+    font-size: 25px !important;
+  }
+
+}
 
 
 
