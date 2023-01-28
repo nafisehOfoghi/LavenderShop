@@ -70,15 +70,9 @@
 }
 
 /*سایز موبایل*/
-@media only screen and (max-width: 768px)
-{
-
-
-  .product-box
-  {
+@media only screen and (max-width: 768px) {
+  .product-box {
     background-color: #ffffff !important;
     margin-bottom: 30px !important;
-    
   }
-
 }
