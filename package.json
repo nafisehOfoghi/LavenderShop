@@ -1,7 +1,7 @@
 {
   "name": "store2",
   "version": "0.1.0",
-  "homepage":"http://{github-username}.github.io/{repo-name}",
+  "homepage":"https://nafisehofoghi.github.io/ZibaStore/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
