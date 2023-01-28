@@ -153,3 +153,20 @@
 
   
 }
+
+/*سایز موبایل*/
+@media only screen and (max-width: 768px)
+{
+.posts{
+  display: grid !important;
+
+  }
+  .weblog-banner
+  {
+    padding: 50px 20px 0px 20px !important;
+  }
+  .info
+  {
+    padding:30px 10px 0px 10px !important
+  }
+}

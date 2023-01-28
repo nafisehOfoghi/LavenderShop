@@ -1,162 +1,150 @@
 .featured-cat-list {
-    height: 720px;
-    display: flex;
-    position: relative;
-    padding: 100px 200px 100px 200px;
-    overflow: hidden;
+  height: 720px;
+  display: flex;
+  position: relative;
+  padding: 100px 200px 100px 200px;
+  overflow: hidden;
 }
 
 .first-col {
-    width: 33.333%;
-    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1514569369508-d2a48d3a423c.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 130%;
-    cursor: pointer;
-    transition: background-size 500ms ease-in;
-    -moz-transition: background-size 500ms ease-in;
-    -ms-transition: background-size 500ms ease-in;
-    -o-transition: background-size 500ms ease-in;
-    -webkit-transition: background-size 500ms ease-in;
+  width: 33.333%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1514569369508-d2a48d3a423c.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  cursor: pointer;
+  transition: background-size 500ms ease-in;
+  -moz-transition: background-size 500ms ease-in;
+  -ms-transition: background-size 500ms ease-in;
+  -o-transition: background-size 500ms ease-in;
+  -webkit-transition: background-size 500ms ease-in;
 }
 
 .first-col:hover {
-    background-size: 150%;
+  background-size: 150%;
 }
 
 .second-col {
-    width: 33.333%;
-    margin: 0px 20px 0px 20px;
+  width: 33.333%;
+  margin: 0px 20px 0px 20px;
 }
 
-
 .third-col {
-    width: 33.333%;
-    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1560977749-a69424365969.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    background-size: 130%;
-    transition: background-size 500ms ease-in;
-    -moz-transition: background-size 500ms ease-in;
-    -ms-transition: background-size 500ms ease-in;
-    -o-transition: background-size 500ms ease-in;
-    -webkit-transition: background-size 500ms ease-in;
+  width: 33.333%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1560977749-a69424365969.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 130%;
+  transition: background-size 500ms ease-in;
+  -moz-transition: background-size 500ms ease-in;
+  -ms-transition: background-size 500ms ease-in;
+  -o-transition: background-size 500ms ease-in;
+  -webkit-transition: background-size 500ms ease-in;
 }
 
 .third-col:hover {
-    background-size: 150%;
+  background-size: 150%;
 }
 
 .second-col.section1 {
-    display: inline-block;
-    position: relative;
-    height: 46%;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543422655-ac1c6ca993ed.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 130%;
-    transition: background-size 500ms ease-in;
-    -moz-transition: background-size 500ms ease-in;
-    -ms-transition: background-size 500ms ease-in;
-    -o-transition: background-size 500ms ease-in;
-    -webkit-transition: background-size 500ms ease-in;
-    margin-bottom: 7%;
-    margin-left: 0px;
-    margin-right: 0px;
-    cursor: pointer;
-
-
+  display: inline-block;
+  position: relative;
+  height: 46%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543422655-ac1c6ca993ed.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  transition: background-size 500ms ease-in;
+  -moz-transition: background-size 500ms ease-in;
+  -ms-transition: background-size 500ms ease-in;
+  -o-transition: background-size 500ms ease-in;
+  -webkit-transition: background-size 500ms ease-in;
+  margin-bottom: 7%;
+  margin-left: 0px;
+  margin-right: 0px;
+  cursor: pointer;
 }
 
 .second-col.second-col.section1:hover {
-    background-size: 150%;
+  background-size: 150%;
 }
 
 .second-col.section2 {
-
-    margin-top: 6%;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: inline-block;
-    position: relative;
-    height: 47%;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543857261-f71238eb4188.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 140%;
-    transition: background-size 500ms ease-in;
-    -moz-transition: background-size 500ms ease-in;
-    -ms-transition: background-size 500ms ease-in;
-    -o-transition: background-size 500ms ease-in;
-    -webkit-transition: background-size 500ms ease-in;
-    cursor: pointer;
-
+  margin-top: 6%;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  position: relative;
+  height: 47%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://manufacturer.stylemixthemes.com/cosmetics/wp-content/uploads/sites/18/2019/08/photo-1543857261-f71238eb4188.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 140%;
+  transition: background-size 500ms ease-in;
+  -moz-transition: background-size 500ms ease-in;
+  -ms-transition: background-size 500ms ease-in;
+  -o-transition: background-size 500ms ease-in;
+  -webkit-transition: background-size 500ms ease-in;
+  cursor: pointer;
 }
 
 .second-col.section2:hover {
-    background-size: 150%;
+  background-size: 150%;
 }
 
 .featured-cat-list .title {
-    color: #ffffff;
-    font-size: 25px;
-    padding: 50px 70px 0px 70px;
-    line-height: 45px;
-    text-align: center;
-
+  color: #ffffff;
+  font-size: 25px;
+  padding: 50px 70px 0px 70px;
+  line-height: 45px;
+  text-align: center;
 }
 
 .featured-cat-list .sub-title {
-    color: #ffffff;
-    font-size: 18px;
-    padding: 0px 70px 50px 70px;
-    line-height: 45px;
-    text-align: center;
-    text-decoration: underline;
-
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0px 70px 50px 70px;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .featured-cat-list .description {
-    color: #ffffff;
-    font-size: 16px;
-    padding: 10px 70px 50px 70px;
-    line-height: 25px;
-    text-align: center;
-
-
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 70px 50px 70px;
+  line-height: 25px;
+  text-align: center;
 }
 
 .third-col .title {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
-
 /*سایز موبایل*/
-@media only screen and (max-width: 768px)
-{
-    .featured-cat-list
-    {
-        padding: 0px 0px 5px 0px !important;
-        display: table !important;
-        
-    }
-    .first-col , .second-col , .third-col 
-    {
-            width: 100% !important;
-            height: 33% !important;
-            margin: 0px !important;
-         
-    }
-    .second-col
-    {
-        margin:0px !important;
-    }
-    .first-col .sub-title
-    {
-        margin-bottom: 0px !important;
-    }
-
+@media only screen and (max-width: 768px) {
+  .featured-cat-list {
+    padding: 0px 0px 5px 0px !important;
+    display: table !important;
+  }
+  .first-col,
+  .second-col,
+  .third-col {
+    width: 100% !important;
+    height: 33% !important;
+    margin: 0px !important;
+  }
+  .second-col {
+    margin: 0px !important;
+  }
+  .first-col .sub-title {
+    margin-bottom: 0px !important;
+  }
 }
