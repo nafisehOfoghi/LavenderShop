@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ZibaStore/static/css/main.b4e1decd.css",
+    "main.js": "/ZibaStore/static/js/main.0bd153b2.js",
+    "static/js/787.a8adf915.chunk.js": "/ZibaStore/static/js/787.a8adf915.chunk.js",
+    "static/media/17.jpg": "/ZibaStore/static/media/17.99fa97216d30b08d5fd2.jpg",
+    "static/media/photo-1562886889-4ff7af0602ef.jpeg": "/ZibaStore/static/media/photo-1562886889-4ff7af0602ef.a93dba1ab98f44347975.jpeg",
+    "static/media/primeicons.svg": "/ZibaStore/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/DanaFaNum-Regular.ttf": "/ZibaStore/static/media/DanaFaNum-Regular.bb0bc3506258a94831c5.ttf",
+    "static/media/DanaFaNum-Bold.ttf": "/ZibaStore/static/media/DanaFaNum-Bold.7a8a4d62ac5417ba5f4e.ttf",
+    "static/media/primeicons.eot": "/ZibaStore/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/ZibaStore/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/ZibaStore/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "service-worker.js": "/ZibaStore/service-worker.js",
+    "static/media/DanaFaNum-Bold.woff": "/ZibaStore/static/media/DanaFaNum-Bold.f5f1cc192c632866ce63.woff",
+    "static/media/DanaFaNum-Regular.woff": "/ZibaStore/static/media/DanaFaNum-Regular.a8dc036088c31d8c1271.woff",
+    "static/media/logo_fin.png": "/ZibaStore/static/media/logo_fin.1e3fc4d00b23c175a156.png",
+    "static/media/DanaFaNum-Bold.woff2": "/ZibaStore/static/media/DanaFaNum-Bold.b4d231ca044bd65208da.woff2",
+    "static/media/DanaFaNum-Regular.woff2": "/ZibaStore/static/media/DanaFaNum-Regular.3ff6dd97068804a80455.woff2",
+    "static/media/revicons.eot": "/ZibaStore/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/ZibaStore/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/ZibaStore/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/ZibaStore/index.html",
+    "main.b4e1decd.css.map": "/ZibaStore/static/css/main.b4e1decd.css.map",
+    "main.0bd153b2.js.map": "/ZibaStore/static/js/main.0bd153b2.js.map",
+    "787.a8adf915.chunk.js.map": "/ZibaStore/static/js/787.a8adf915.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4e1decd.css",
+    "static/js/main.0bd153b2.js"
+  ]
+}
