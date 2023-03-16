@@ -60,3 +60,7 @@
   vertical-align: middle;
   margin-left: 10px;
 }
+.react-multi-carousel-item {
+  
+  direction: ltr !important;
+}
