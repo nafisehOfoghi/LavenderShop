@@ -29,15 +29,15 @@ function WeblogBanner() {
   const background3 = "images/photo-1518145060901-fb6d403515f0.jpeg";
   const background4 = "images/photo-1562887284-eb863165ebc8.jpeg";
 
-  const title1 = "انتخاب شنل به عنوان بهترین برند عطر سال";
-  const title2 = "ارغوان، برندی جدید در محصولات آرایشی";
-  const title3 = "کارخانه جدید زیبا با مساحتی حدود 20 هکتار احداث شد";
-  const title4 = "با تمامی محصولات مراقبت پوستی ما آشنا شوید";
+  const title1 = "Choosing Chanel as the best perfume brand";
+  const title2 = "Arghvan, a new brand in cosmetic products";
+  const title3 = "A beautiful new factory was built in S";
+  const title4 = "Get to know all our skin care products";
 
-  const date1 = "یازدهم شهریور 1401";
-  const date2 = "بهمن 11 1401";
-  const date3 = "شهریور 11 1401";
-  const date4 = "شهریور 11 1401";
+  const date1 = "12 March 2023";
+  const date2 = "03 Jun 2023";
+  const date3 = "23 october 2022";
+  const date4 = "30 march 2022";
 
   const [isHovered, setIssHovered] = useState(false);
   const [isPost1Hovered, setIsPost1Hovered] = useState(false);
@@ -55,7 +55,7 @@ function WeblogBanner() {
           showDots={true}
           arrows={false}
           infinite={true}
-          autoPlay={true}
+          autoPlay={false}
           autoPlaySpeed={3000}
           keyBoardControl={true}
           dotListClass="custom-dot-list-style"
@@ -75,6 +75,7 @@ function WeblogBanner() {
                 transform: isPost1Hovered
                   ? "translateY(-80px)"
                   : "translateY(0px)",
+                 
               }}
             >
               {title1}
@@ -86,6 +87,7 @@ function WeblogBanner() {
                 transform: isPost1Hovered
                   ? "translateX(-250px)"
                   : "translateX(0px)",
+               
               }}
             >
               {date1}
@@ -188,10 +190,9 @@ function WeblogBanner() {
         </Carousel>
       </div>
       <div className="info">
-        <h3 className="title">اخبار و مقاله های جدید</h3>
+        <h3 className="title">News and Articles</h3>
         <p className="subtitle">
-          ما با حرفه ای ترین برندها کار میکنیم و همیشه از پروژه های جدید استقبال
-          می کنیم
+        We work with professional brands and always welcome new projects
         </p>
         <span
           className="button"
@@ -203,7 +204,7 @@ function WeblogBanner() {
               transform: isHovered ? "translateX(-20px)" : "translateX(0px)",
             }}
           >
-            مشاهده کامل اخبار
+            See All
           </button>
           <i
             className="pi pi-minus"
