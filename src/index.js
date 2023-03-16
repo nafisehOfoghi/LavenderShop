@@ -12,16 +12,16 @@ import './fonts/DanaFaNum-Regular.woff2';
 import './fonts/DanaFaNum-Bold.ttf';
 import './fonts/DanaFaNum-Bold.woff';
 import './fonts/DanaFaNum-Bold.woff2';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

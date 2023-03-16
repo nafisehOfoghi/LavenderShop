@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZibaStore/static/css/main.b4e1decd.css",
-    "main.js": "/ZibaStore/static/js/main.0bd153b2.js",
+    "main.js": "/ZibaStore/static/js/main.3342ed37.js",
     "static/js/787.a8adf915.chunk.js": "/ZibaStore/static/js/787.a8adf915.chunk.js",
     "static/media/17.jpg": "/ZibaStore/static/media/17.99fa97216d30b08d5fd2.jpg",
     "static/media/photo-1562886889-4ff7af0602ef.jpeg": "/ZibaStore/static/media/photo-1562886889-4ff7af0602ef.a93dba1ab98f44347975.jpeg",
@@ -22,11 +22,11 @@
     "static/media/revicons.woff": "/ZibaStore/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ZibaStore/index.html",
     "main.b4e1decd.css.map": "/ZibaStore/static/css/main.b4e1decd.css.map",
-    "main.0bd153b2.js.map": "/ZibaStore/static/js/main.0bd153b2.js.map",
+    "main.3342ed37.js.map": "/ZibaStore/static/js/main.3342ed37.js.map",
     "787.a8adf915.chunk.js.map": "/ZibaStore/static/js/787.a8adf915.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4e1decd.css",
-    "static/js/main.0bd153b2.js"
+    "static/js/main.3342ed37.js"
   ]
 }
