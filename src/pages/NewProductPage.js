@@ -9,9 +9,9 @@ function NewProductPage() {
 
         <div className='new_product'>
 
-            <h1>اضافه کردن محصول جدید</h1>
+            <h1>Add new product</h1>
 
-            <p>لطفا مشخصات محصول جدید را در فرم زیر وارد کنید</p>
+            <p>Please fill in the form for the new product</p>
 
             <br />
 
