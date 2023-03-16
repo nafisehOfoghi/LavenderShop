@@ -1,4 +1,4 @@
-# Ziba Store
+# Lavender Shop
 
  This repository is front-end of a cosmetic store and is developed by Reactjs.
 
