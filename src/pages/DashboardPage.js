@@ -9,18 +9,18 @@ function DashboardPage()
   return(
     <div className='dashboard'>
 
-            <h1>داشبورد</h1>
+            <h1>Dashboard</h1>
 
             
  
 
-            <p>اینجا پلن کاربری شماست</p>
+            <p>This is Your Managment Dashboard</p>
 
             <br />
 
             <Link to="/new-product">
                   <Button
-                    label="ساخت محصول جدید"
+                    label="Create new product"
                   />
                 </Link>
 
