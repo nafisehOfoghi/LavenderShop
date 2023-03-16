@@ -1,10 +1,11 @@
 .slider_title
 {
     list-style: none;
-    text-align: right;
+    text-align: left;
     color: white;
     margin-top: 10%;
-    margin-right: 10%;
+    margin-left: 10%;
+    direction: rtl;
 }
 .slider_title h2
 {
