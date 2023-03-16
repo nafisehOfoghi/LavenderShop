@@ -8,11 +8,35 @@
 
 @font-face {
   font-family: 'dana-bold';
-  src: url('./fonts/DanaFaNum-Bold.ttf'),
-       url('./fonts/DanaFaNum-Bold.woff') format('woff'),
-       url('./fonts/DanaFaNum-Bold.woff2') format('woff2'),
+  src: local("dana"),
+  url("./fonts/DanaFaNum-Bold.ttf") format("truetype");
+ 
      
 }
+@font-face {
+  font-family: 'TT Ricordi Allegria Trial Light';
+  src: local("dana"),
+  url("./fonts/TT Ricordi Allegria Trial Light.ttf") format("truetype");
+ 
+     
+}
+@font-face {
+  font-family: 'TT Slabs Trial Regular';
+  src: local("dana"),
+  url("./fonts/TT Slabs Trial Regular.otf") format("truetype");
+ 
+     
+}
+@font-face {
+  font-family: 'TT Slabs Trial Bold';
+  src: local("dana"),
+  url("./fonts/TT Slabs Trial Bold.otf") format("truetype");
+ 
+     
+}
+
+
+
 
 body {
   margin: 0;
