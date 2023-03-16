@@ -35,7 +35,7 @@ function Category(props) {
 
         {isButtonShown && (
           <span className="category-show-more">
-            بیشتر ببینید
+            See More
             <i className="pi pi-arrow-right "></i>
           </span>
         )}
