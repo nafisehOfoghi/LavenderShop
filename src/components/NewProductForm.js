@@ -10,12 +10,12 @@ import axios from "axios";
 import { useState } from "react";
 
 function NewProductForm(props) {
-  let category = "مو";
+  let category = "Hair";
   const categories = [
-    { label: "مو", value: "مو" },
-    { label: "پوست", value: "پوست" },
-    { label: "صورت", value: "صورت" },
-    { label: "بدن", value: "بدن" },
+    { label: "Hair", value: "hair" },
+    { label: "Skin", value: "Skin" },
+    { label: "Face", value: "Face" },
+    { label: "Body", value: "Body" },
   ];
 
 
@@ -84,7 +84,7 @@ function NewProductForm(props) {
 
 
 
-    alert(JSON.stringify('محصول با موفقیت ثبت شد', null, 2));
+    alert(JSON.stringify('Product was created successfully!', null, 2));
     //  alert(JSON.stringify(values, null, 2));
 
 
@@ -92,11 +92,11 @@ function NewProductForm(props) {
     validationSchema: Yup.object({
         name: Yup.string()
                 .label('name')
-                .required("لطفاً یک نام برای محصول خود انتخاب کنید"),
+                .required("Please choose a name for your product"),
         category: Yup.string()
-                .required("لطفاً دسته بندی محصول خود را مشخص کنید"),
+                .required("Please choose a category for your product"),
         price: Yup.string()
-                .required("لطفا یک قیمت برای محصول خود انتخاب کنید"),
+                .required("Please Choose a price for your product"),
         pic: Yup.string()
                  ,
         description: Yup.string()
@@ -112,7 +112,7 @@ function NewProductForm(props) {
           <td colSpan={2} className="one_column">
             <ul className="add_product_field">
               <li className="label">
-                <label htmlFor="name">نام محصول</label>
+                <label htmlFor="name">Product name</label>
               </li>
               <li>
                 <InputText
@@ -134,7 +134,7 @@ function NewProductForm(props) {
           <td className="two_colomn">
             <ul className="add_product_field">
               <li className="label">
-                <label htmlFor="category">دسته بندی</label>
+                <label htmlFor="category">Category</label>
               </li>
               <li>
                 <Dropdown
@@ -145,7 +145,7 @@ function NewProductForm(props) {
                   value={formik.values.category}
                   onBlur={formik.handleBlur}
                   options={categories}
-                  placeholder="انتخاب کنید"
+                  placeholder="choose..."
                 />
                 <span className='text-red-400'>{formik.errors.category}</span>
               </li>
@@ -155,7 +155,7 @@ function NewProductForm(props) {
           <td className="two_colomn">
             <ul className="add_product_field">
               <li className="label">
-                <label htmlFor="product_price">قیمت (تومان)</label>
+                <label htmlFor="product_price">Price (in $)</label>
               </li>
               <li>
                 <InputText
@@ -188,10 +188,10 @@ function NewProductForm(props) {
                   customUpload={true}
                   uploadHandler={pictureUploadHandler}
                   mode="advanced"
-                  chooseLabel="تصویر محصول"
+                  chooseLabel="Product Picture"
                   auto="true"
                   
-                />{"فرمت تصویر باید jpg باشد"}
+                />{"picture must be in jpg format"}
                 <span className='text-red-400'>{formik.errors.pic}</span>
               </li>
             </ul>
@@ -202,7 +202,7 @@ function NewProductForm(props) {
           <td colSpan={2} className="one_column">
             <ul className="add_product_field">
               <li className="label">
-                <label htmlFor="description">توضیحات </label>
+                <label htmlFor="description">Description </label>
               </li>
               <li>
                 <InputTextarea
@@ -221,7 +221,7 @@ function NewProductForm(props) {
 
         <tr>
           <td className="one_column">
-            <Button type="submit" label="ثبت کن" />
+            <Button type="submit" label="Submit" />
           </td>
         </tr>
       </table>
