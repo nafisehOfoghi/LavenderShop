@@ -4,7 +4,7 @@ import { useState } from "react";
 function NewProduct(props) {
   const [isButtonShown, setIsButtonShown] = useState(false);
   const background = "images/" + props.background;
-  const price = props.price + "   تومان";
+  const price =  "  $" + props.price;
 
   const backgroundStyle = {
     backgroundImage: ` url("${background}")`,
@@ -34,7 +34,7 @@ function NewProduct(props) {
         <p className="product-price">{price}</p>
 
         <span className="product-show-more">
-          اضافه به سبد خرید
+          Add To Cart
           <i className="pi pi-shopping-cart "></i>
         </span>
       </div>
