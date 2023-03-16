@@ -1,14 +1,14 @@
 .p-fluid
 {
-    direction: rtl !important;
+    direction: ltr !important;
 }
 .field-checkbox
 {
-    direction: rtl !important;
+    direction: ltr !important;
 }
 .field
 {
-    direction: rtl !important;
+    direction: ltr !important;
 }
 
 .p-calendar-w-btn-right .p-inputtext
@@ -19,8 +19,8 @@
 .p-calendar-w-btn-right .p-datepicker-trigger
 {
     border-radius: 0px !important;
-    border-bottom-left-radius: 6px !important;
-    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-top-right-radius: 6px !important;
 }
 
 .form-demo .card {
