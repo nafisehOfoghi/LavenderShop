@@ -11,7 +11,7 @@ function Footer()
         <div className="footer-overlay"></div>
             </div>
 <div className="copyright">
-            <p>کپی رایت 1401 - تمامی حقوق برای فروشگاه زیبا محفوظ است </p>
+            <p>Copyright 2023 - All rights reserved for Lavandar Shop</p>
         </div>
         </div>
 
