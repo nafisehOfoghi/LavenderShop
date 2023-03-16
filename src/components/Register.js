@@ -19,15 +19,13 @@ function Register() {
   const countryservice = new CountryService();
 
   const countries = [
-    { label: "تهران", value: "tehran" },
-    { label: "اصفهان", value: "isfahan" },
-    { label: "مشهد", value: "mashhad" },
-    { label: "اهواز", value: "ahvaz" },
-    { label: "یزد", value: "yazd" },
-    { label: "کرمان", value: "kerman" },
-    { label: "گلستان", value: "golestan" },
-    { label: "مازندران", value: "mazandaran" },
-    { label: "تبریز", value: "tabriz" },
+    { label: "California", value: "tehran" },
+    { label: "Manhatan", value: "isfahan" },
+    { label: "Sanfransisco", value: "mashhad" },
+    { label: "New York", value: "ahvaz" },
+    { label: "LA", value: "yazd" },
+    { label: "Arizona", value: "kerman" },
+   
   ];
 
   // useEffect(() => {
@@ -47,23 +45,23 @@ function Register() {
       let errors = {};
 
       if (!data.name) {
-        errors.name = "نام کاربری الزامی است";
+        errors.name = "username is required";
       }
 
       if (!data.email) {
-        errors.email = "ایمیل الزامی است";
+        errors.email = "email is required";
       } else if (
         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(data.email)
       ) {
-        errors.email = "فرمت ایمیل نادرست است";
+        errors.email = "email format is incorrect";
       }
 
       if (!data.password) {
-        errors.password = "رمز نادرست است";
+        errors.password = "password is incorrect";
       }
 
       if (!data.accept) {
-        errors.accept = "باید با قوانین و مقررات سایت موافقت کنید";
+        errors.accept = "you have to agree to terms and conditions";
       }
 
       return errors;
@@ -96,16 +94,16 @@ function Register() {
       />
     </div>
   );
-  const passwordHeader = <h6>یک رمز عبور انتخاب کنید</h6>;
+  const passwordHeader = <h6>Choose a Password</h6>;
   const passwordFooter = (
     <React.Fragment>
       <Divider />
-      <p className="mt-2">پیشنهادات</p>
+      <p className="mt-2">Suggestions</p>
       <ul className="pl-2 ml-2 mt-0" style={{ lineHeight: "1.5" }}>
-        <li>حداقل یک کاراکتر انگلیسی کوچک</li>
-        <li>حداقل یک کاراکتر انگلیسی بزرگ</li>
-        <li>حداقل یک عدد</li>
-        <li>حداقل یک رمز 8 کاراکتری</li>
+        <li>At least one small character</li>
+        <li>At least one big character</li>
+        <li>At least one number</li>
+        <li>At least one 8 characters</li>
       </ul>
     </React.Fragment>
   );
@@ -127,9 +125,9 @@ function Register() {
               className="pi pi-check-circle"
               style={{ fontSize: "5rem", color: "var(--green-500)" }}
             ></i>
-            <h5>ثبت نام موفقیت آمیز بود!</h5>
+            <h5>Registration was successful!</h5>
             <p style={{ lineHeight: 1.5, textIndent: "1rem" }}>
-              حساب شما با این نام کاربری ایجاد شد: <b>{formData.name}</b> ;
+              Your account was created: <b>{formData.name}</b> ;
               it'll be valid next 30 days without activation. Please check{" "}
               <b>{formData.email}</b> for activation instructions.
             </p>
@@ -138,8 +136,8 @@ function Register() {
 
         <div>
           <div>
-            <h5 className="text-center">
-              لطفا اطلاعات خود را در فرم زیر وارد کنید
+            <h5>
+              Please fill in the form
             </h5>
             <form onSubmit={formik.handleSubmit} className="p-fluid">
               <div className="field">
@@ -150,7 +148,7 @@ function Register() {
                       "p-error": isFormFieldValid("name"),
                     })}
                   >
-                    نام کاربری*
+                    Username*
                   </label>
                   <InputText
                     id="name"
@@ -172,7 +170,7 @@ function Register() {
                     "p-error": isFormFieldValid("email"),
                   })}
                 >
-                  ایمیل *
+                  Email *
                 </label>
 
                 <span className=" p-input-icon-left">
@@ -197,7 +195,7 @@ function Register() {
                       "p-error": isFormFieldValid("password"),
                     })}
                   >
-                    رمز عبور*
+                    Password*
                   </label>
                   <Password
                     id="password"
@@ -216,7 +214,7 @@ function Register() {
               </div>
               <div className="field">
                 <span>
-                  <label htmlFor="date">تاریخ تولد</label>
+                  <label htmlFor="date">Birth Day</label>
                   <Calendar
                     id="date"
                     name="date"
@@ -230,7 +228,7 @@ function Register() {
               </div>
               <div className="field">
                 <span>
-                  <label htmlFor="country">استان</label>
+                  <label htmlFor="country">State</label>
                   <Dropdown
                     id="country"
                     name="country"
@@ -243,7 +241,7 @@ function Register() {
                     value={formik.values.country}
                     onBlur={formik.handleBlur}
                     options={countries}
-                    placeholder="انتخاب کنید"
+                    placeholder="choose ... "
                   />
                 </span>
               </div>
@@ -263,11 +261,11 @@ function Register() {
                     "p-error": isFormFieldValid("accept"),
                   })}
                 >
-                  من با قوانین و مقررات سایت موافقم*
+                  I agree with the term and conditions*
                 </label>
               </div>
 
-              <Button type="submit" label="ثبت" className="mt-2" />
+              <Button type="submit" label="Submit" className="mt-2" />
             </form>
           </div>
         </div>
