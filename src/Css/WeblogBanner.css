@@ -5,6 +5,7 @@
   display: flex;
   padding: 100px 100px 50px 100px;
   text-align: right;
+  direction: rtl;
 }
 
 .info {
@@ -12,15 +13,19 @@
   display: inline-block;
   width: 30%;
   margin-left: 50px;
+  direction: rtl;
+  text-align: left;
 }
 
 .info h3 {
   font-size: 30px;
   margin-bottom: 50px;
+  text-align: left;
 }
 
 .info p {
   margin-bottom: 50px;
+  text-align: left;
 }
 
 .posts {
@@ -37,6 +42,7 @@
   vertical-align: middle;
   color: #c9a654;
   cursor: pointer;
+  text-align: left;
 }
 
 .weblog-banner .button .pi {
@@ -91,7 +97,7 @@
 
 .post-item .post-title {
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   padding: 260px 30px 0px 30px;
   font-size: 20px;
   display: inline-block;
@@ -104,16 +110,18 @@
 
 .post-item .post-date {
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 0px;
   font-size: 16px;
   transition: transform 350ms;
   padding: 260px 30px 0px 30px;
   right: 0px;
-  margin-right: -250px;
+  margin-left: 250px;
+  width: max-content;
+  direction: rtl;
+  
 }
 
 .post-item .post-date:hover {
@@ -123,18 +131,19 @@
 .post-item .pi {
   vertical-align: middle;
   font-size: 16px;
-  margin-left: 10px;
+  margin-right: 10px;
+  
 }
 
 @-webkit-keyframes slide {
   100% {
-    right: 0;
+    left: 0;
   }
 }
 
 @keyframes slide {
   100% {
-    right: 0;
+    left: 0;
   }
 }
 
