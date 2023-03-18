@@ -1,7 +1,7 @@
 {
   "name": "store2",
   "version": "0.1.0",
-  "homepage": "https://nafisehofoghi.github.io/LavenderShop/",
+  "homepage": "https://nafisehofoghi.github.io/LavenderShop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
